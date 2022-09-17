@@ -1,0 +1,147 @@
+/***** BASE STYLES*****/
+body {
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/***** GRID *****/
+.full-width {
+    margin: 0;
+    overflow: auto;
+    width: 1200px;
+}
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+/***** HEADER *****/
+h1,
+h2, 
+h3 {
+    text-transform: uppercase;
+}
+header h1 {
+    color: #000000;
+    float: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 35px 0;
+}
+header h1 span {
+    color: #77a446;
+}
+nav {
+    float: right;
+    padding: 45px 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: #77a446;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/***** TOP SECTION *****/
+.top-section,
+.bottom-section {
+    clear: both;
+    margin: 0;
+}
+.main-image {
+    float: left;
+}
+.main-image img {
+    border-top: 3px solid #77a446;
+    border-bottom: 3px solid #77a446;
+}
+.main-title {
+    float: left;
+    height: auto;
+}
+.main-title h2 {
+    color: #77a446;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 5px 0;
+}
+.main-title p {
+    font-size: 16px;
+    line-height: 25px; 
+}
+
+/***** BOTTOM SECTION *****/
+.section-one,
+.section-two,
+.section-three {
+    border-top: 1px solid #dedbdc;
+    float: left;
+    padding: 0;
+    width: 399px;
+}
+h3 {
+    font-size: 12px;
+}
+.section-one h3 {
+    padding: 10px 0;
+}
+.section-two h3,
+.section-three h3 {
+    padding: 10px 30px;
+}
+.section-two {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+#menu {
+    color: #a2bf98;
+    list-style: none;
+    padding: 0;
+}
+#menu li {
+    font-size: 16px;
+    padding: 10px 0;
+}
+#reviews {
+    color: #262626;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0 30px;
+}
+#contact {
+    color: #262626;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 30px;
+}
+
+footer {
+    border-top: 1px solid #dedbdc;
+    clear: both;
+    margin: 0 auto;
+    padding: 18px;
+    text-align: center;
+}
+footer h3 {
+    font-size: 16px;
+}
+footer span {
+    color: #77a446;
+    font-family: "Galada", cursive;
+    text-transform: lowercase;
+}
